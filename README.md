@@ -1,7 +1,7 @@
 # Only Graphql Server
 
-1.  mercurius ( **silver bullet** )
-2.  benzene
+1.  mercurius & benzene( **silver bullet** )
+2.  express-graphql
 3.  apollo (_slowest_)
 
 > On large connections both **apollo** & **benzene** fail!
