@@ -11,6 +11,24 @@ yarn install
 yarn start
 ```
 
+duration: 5.01s
+connections: 5
+pipelining: 1
+
+| Server                                                                                                                                    | Requests/s | Latency | Throughput/Mb |
+| :---------------------------------------------------------------------------------------------------------------------------------------- | ---------: | :-----: | ------------: |
+| [benzene-server](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/benzene-server.js)                             |     4362.6 |  0.48   |         27.33 |
+| [mercurius](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/mercurius.js)                                       |     4052.4 |  0.55   |         25.36 |
+| [benzene-server+typed](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/benzene-server+typed.js)                 |     3241.0 |  1.32   |         20.30 |
+| [benzene-server+express](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/benzene-server+express.js)             |     3134.2 |  1.37   |         19.70 |
+| [mercurius+typed](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/mercurius+typed.js)                           |     2750.2 |  1.57   |         17.22 |
+| [benzene-server+express+typed](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/benzene-server+express+typed.js) |     2504.6 |  1.55   |         15.74 |
+| [apollo-server-fastify](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/apollo-server-fastify.js)               |     1228.4 |  3.48   |          7.73 |
+| [express-graphql](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/express-graphql.js)                           |     1094.0 |  4.04   |          6.85 |
+| [apollo-server](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/apollo-server.js)                               |      792.8 |  5.79   |          5.02 |
+| [apollo-server-express](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/apollo-server-express.js)               |      780.2 |  5.93   |          4.96 |
+| [apollo-server-express+typed](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/apollo-server-express+typed.js)   |      745.6 |  6.24   |          4.74 |
+
 duration: 5.17s
 connections: 1000
 pipelining: 1
