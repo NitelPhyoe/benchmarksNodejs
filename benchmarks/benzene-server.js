@@ -6,6 +6,7 @@ const { Benzene, httpHandler } = require('@benzene/server');
 const {
   createAsyncGraphqlComposeSchema,
 } = require('../lib/schemas/createGraphqlCompose');
+
 const schema = createAsyncGraphqlComposeSchema();
 
 const app = polka();
