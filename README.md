@@ -10,21 +10,21 @@
 yarn install
 yarn start
 ```
-duration: 5.01s
-connections: 5
+duration: 5.21s
+connections: 1000
 pipelining: 1
 
-| Server                                                                                                                                    | Requests/s | Latency | Throughput/Mb |
-| :--                                                                                                                                       | --:        | :-:     | --:           |
-| [mercurius](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/mercurius.js)                                       | 3321.4     | 0.84    | 20.79         |
-| [benzene-server](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/benzene-server.js)                             | 3233.4     | 0.89    | 20.25         |
-| [benzene-server+typed](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/benzene-server+typed.js)                 | 2781.4     | 1.54    | 17.42         |
-| [benzene-server+express](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/benzene-server+express.js)             | 2512.6     | 1.64    | 15.79         |
-| [tinyHttp+benzene+typed](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/tinyHttp+benzene+typed.js)             | 2507.4     | 1.64    | 15.77         |
-| [mercurius+typed](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/mercurius+typed.js)                           | 2345.6     | 1.70    | 14.68         |
-| [benzene-server+express+typed](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/benzene-server+express+typed.js) | 2337.2     | 1.69    | 14.69         |
-| [express-graphql](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/express-graphql.js)                           | 1176.4     | 3.69    | 7.37          |
-| [apollo-server-fastify](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/apollo-server-fastify.js)               | 748.4      | 6.20    | 4.71          |
-| [apollo-server](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/apollo-server.js)                               | 667.0      | 6.99    | 4.22          |
-| [apollo-server-express](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/apollo-server-express.js)               | 645.6      | 7.27    | 4.10          |
-| [apollo-server-express+typed](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/apollo-server-express+typed.js)   | 453.8      | 10.52   | 2.88          |
+| Server                                                                                                                                | Requests/s | Latency | Throughput/Mb |
+| :--                                                                                                                                   | --:        | :-:     | --:           |
+| [mercurius](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/mercurius.js)                                       | 3052.6     | 251.55  | 19.11         |
+| [benzene-server](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/benzene-server.js)                             | 2847.8     | 269.60  | 17.84         |
+| [benzene-server+express](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/benzene-server+express.js)             | 2659.8     | 289.14  | 16.72         |
+| [benzene-server+typed](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/benzene-server+typed.js)                 | 2492.4     | 301.80  | 15.61         |
+| [mercurius+typed](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/mercurius+typed.js)                           | 2262.6     | 338.18  | 14.17         |
+| [tinyHttp+benzene+typed](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/tinyHttp+benzene+typed.js)             | 2203.2     | 347.95  | 13.85         |
+| [benzene-server+express+typed](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/benzene-server+express+typed.js) | 1227.8     | 713.61  | 7.72          |
+| [apollo-server-fastify](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/apollo-server-fastify.js)               | 1060.2     | 588.60  | 6.67          |
+| [express-graphql](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/express-graphql.js)                           | 1021.0     | 690.22  | 6.39          |
+| [apollo-server](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/apollo-server.js)                               | 649.8      | 795.44  | 4.12          |
+| [apollo-server-express](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/apollo-server-express.js)               | 575.4      | 853.92  | 3.66          |
+| [apollo-server-express+typed](https://github.com/NitelPhyoe/benchmarksNodejs/tree/master/benchmarks/apollo-server-express+typed.js)   | 508.0      | 1099.40 | 3.23          |
